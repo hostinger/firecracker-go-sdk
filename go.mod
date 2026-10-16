@@ -4,7 +4,7 @@ go 1.24.11
 
 require (
 	github.com/containerd/fifo v1.1.0
-	github.com/containernetworking/cni v1.3.0
+	github.com/containernetworking/cni v1.3.1
 	github.com/containernetworking/plugins v1.9.0
 	github.com/go-openapi/errors v0.22.1
 	github.com/go-openapi/runtime v0.24.0
@@ -40,6 +40,8 @@ require (
 	github.com/opentracing/opentracing-go v1.2.0 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	go.mongodb.org/mongo-driver v1.14.0 // indirect
+	go.opentelemetry.io/otel v1.29.0 // indirect
+	go.opentelemetry.io/otel/trace v1.29.0 // indirect
 	golang.org/x/net v0.47.0 // indirect
 	golang.org/x/sync v0.16.0 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
